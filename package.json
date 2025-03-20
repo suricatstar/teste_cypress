@@ -1,0 +1,24 @@
+{
+  "name": "teste_cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmycalhado/teste_cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmycalhado/teste_cypress/issues"
+  },
+  "homepage": "https://github.com/jimmycalhado/teste_cypress#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  }
+}
