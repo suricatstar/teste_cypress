@@ -7,7 +7,7 @@ function loadTasks() {
       const li = document.createElement('li');
       li.innerHTML = `
         <span>${task}</span>
-        <button onclick="removeTask(${index})">X</button>
+        <button class="remove-task" onclick="removeTask(${index})">X</button>
       `;
       taskList.appendChild(li);
     });
@@ -37,5 +37,3 @@ function loadTasks() {
   // Carregar as tarefas quando a página for carregada
   window.onload = loadTasks;
   
-
-//   arrumar para o front depois pq acho que tem coisa que não vai funcionar
